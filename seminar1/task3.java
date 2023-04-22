@@ -12,7 +12,6 @@ public class task3 {
         int[] ArrayRes = difference(ArrayOne, ArrayTwo);
     }
 
-
     public static int[] difference(int[] ArrayOne, int[] ArrayTwo) {
         if(ArrayOne.length != ArrayTwo.length) throw new RuntimeException("Внимание!!! Длины массивов не равны.");
         int[] ArrayRes = new int[ArrayOne.length];

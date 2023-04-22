@@ -5,7 +5,7 @@ package seminar1;
 public class task1 {
     public static void main(String[] args) {
         String []s = {"one", "two", null};
-        int[] array = {1,2,3,4,5,6,7,8,9,10};
+        int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         divide(10, 0);
         printMeaning(array,10);
         printStringLength(s);
