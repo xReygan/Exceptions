@@ -12,17 +12,16 @@ public class task1 {
     }
 
     public static void enterNumber() {
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Введите дробное число: ");
-        String numb = input.nextLine();
+        String input = scanner.nextLine();
         try {
-            float number = Float.parseFloat(numb);
-            System.out.println("Вы ввели: " + number);
+            float num = Float.parseFloat(input);
+            System.out.println("Вы ввели: " + num);
         } catch (NumberFormatException e) {
-            System.out.println("Вы ввели не дробное число!");
+            System.out.println("Внимание!!! Вы ввели не дробное число!");
             enterNumber();
         }
-        input.close();
-
+        scanner.close();
     }
 }
